@@ -2,6 +2,7 @@
 The_Noizzier
 ==========================================================================
 Program to add noise to a spectra
+_________________________________
 
 This is the current version which takes a spectra and produces
 several fits files with degrading SNR
