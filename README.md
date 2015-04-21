@@ -1,21 +1,22 @@
 ==========================================================================
-#The_Noizzier
-Program to add noise to a spectra
+The_Noizzier
 ==========================================================================
+#Program to add noise to a spectra
+
 This is the current version which takes a spectra and produces
 several fits files with degrading SNR
 
 v1.00 2015-04-21
 @author: gdcteixeira
 
-==========================================================================
+
 REQUIRED PYTHON LIBRARIES:
 ==========================================================================
 numpy
 astropy
 PyAstronomy
 
-==========================================================================
+
 INSTALLATION:
 ==========================================================================
 In order to make The_Noizzier an executable file you need to change the 
@@ -23,7 +24,7 @@ file permissions of The_Noizzier_v1.00.py using the command:
 
 chmod +x The_Noizzier_v1.00.py
 
-==========================================================================
+
 INPUT PARAMETERS:
 ==========================================================================
 The input parameters should be set in the configuration file named:
@@ -42,35 +43,35 @@ By default the GeTCal_config.py should be:
 filenames='list_of_files_v2.dat'
 numb_degradations=10
 
-==========================================================================
+
 OUTPUT
 ==========================================================================
 The output consists of :
 fits files for spectra with increasing levels of noise. The filename will
 have an estimative of the SNR of that spectra
 
-==========================================================================
+
 RUNTIME
 ==========================================================================
 The_Noizzier is a relatively fast code so it should finish with relative
 speed. Limiting factors of speed, the number of files to introduce noise
 into and the number of degradations demanded.
 
-==========================================================================
+
 Running The_Noizzier
 ==========================================================================
 To run the program you just need to use the command after changing the 
 config file:
 ./The_Noizzier_v1.00.py
 
-==========================================================================
+
 TEST SUITE
 ==========================================================================
 In this repository it is also available a directory with one spectrum,
 in order to test the program.
 
-==========================================================================
+
 TROUBLESHOOT AND FEEDBACK
 ==========================================================================
 If you have any problems with the code or want to give feedback, please contact the author: G. D . C. Teixeira
-==========================================================================
+
