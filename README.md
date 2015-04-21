@@ -73,5 +73,4 @@ in order to test the program.
 TROUBLESHOOT AND FEEDBACK
 ==========================================================================
 If you have any problems with the code or want to give feedback, please contact the author: G. D . C. Teixeira
-gteixeira@astro.up.pt
 ==========================================================================
