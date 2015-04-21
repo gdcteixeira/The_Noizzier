@@ -83,7 +83,6 @@ def noize_adder(new_noise, data, number_of_points):
     output: data - flux data with added noise
     """
     norm = np.random.normal(0, 1, number_of_points)*float(1)/new_noise+1
-    np.random.normal()
     data = data*norm
     return data
 
