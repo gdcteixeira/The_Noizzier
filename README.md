@@ -11,9 +11,9 @@ v1.01 2015-04-22
 
 ## REQUIRED PYTHON LIBRARIES:
 
-	* [numpy]
-	* [astropy]
-	* [PyAstronomy]
+   * [numpy]
+   * [astropy]
+   * [PyAstronomy]
 
 ##INSTALLATION:
 
